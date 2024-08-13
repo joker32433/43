@@ -1,0 +1,25 @@
+{
+  "name": "botsupport",
+  "version": "1.0.0",
+  "description": "bot support discord ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.3",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "nodemon": "^3.0.3",
+    "play-dl": "^1.9.7",
+    "ytdl-core": "^4.11.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
